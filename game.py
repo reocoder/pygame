@@ -15,7 +15,7 @@ screen_width = 1000
 screen_height = 1000
 
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption('Platformer')
+pygame.display.set_caption('khelo khelo!')
 
 
 #define font
@@ -228,7 +228,7 @@ class Player():
 
 		elif game_over == -1:
 			self.image = self.dead_image
-			draw_text('KOI BAAT NAI....\n HAPPY BIRTHDAY BANDARIYA!!!', font, blue, (screen_width //4) - 200, screen_height // 2)
+			draw_text('KOI BAAT NAI....HAPPY BIRTHDAY!!!', font, blue, (screen_width //4) - 200, screen_height // 2)
 			if self.rect.y > 200:
 				self.rect.y -= 5
 
