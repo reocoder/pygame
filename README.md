@@ -1,2 +1,2 @@
 # pygame
-for best friends birthday
+it is a simple platformer game for best friends birthday
